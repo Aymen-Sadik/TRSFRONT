@@ -1,0 +1,41 @@
+# Dependances : reinstallables par « npm install », jamais versionnees.
+node_modules/
+
+# Resultat de compilation, regenerable par « npm run build ».
+dist/
+dist-ssr/
+*.local
+
+# Configuration locale. .env peut contenir l'adresse de l'API propre a chaque
+# poste, et plus tard des valeurs sensibles : il reste hors du depot.
+# .env.example, lui, est versionne et sert de modele.
+.env
+.env.*
+!.env.example
+
+# Journaux
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches d'outils
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+# Editeurs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Systeme
+.DS_Store
+Thumbs.db

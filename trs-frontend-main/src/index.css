@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --color-navy: #1F4E79;
+  --color-navy-light: #24476f;
+  --color-bg: #f3f4f6;
+  --color-card: #ffffff;
+  --color-border: #d8dee4;
+  --color-text: #1f2937;
+  --color-muted: #6b7280;
+  --color-danger: #dc2626;
+  --color-button: #1F4E79;
+
+  --font-body: Inter, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
